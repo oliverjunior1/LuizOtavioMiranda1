@@ -1,10 +1,8 @@
-salas = [
-    ['Maria', 'Helena',],
-    ['Elaine'],
-    ['Luiz', 'Joao', 'Eduarda'],
-]
+def name(name):
+    print(f'{name} Oliveira')
 
-for sala in salas:
-    print(f'A sala é +{sala}')
-    for aluno in sala:
-        print(aluno)
+name('Joaquim')
+name('Alyne')
+name('Joao Pedro')
+name('Mariane Vitória')
+
