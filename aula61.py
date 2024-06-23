@@ -1,4 +1,4 @@
-CPF = input('Type your CPF with only numbers: ')
+CPF = input('Type your CPF: ').replace('.', '').replace('-', '')
 
 i = 10
 j = 0
