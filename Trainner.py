@@ -1,11 +1,8 @@
-perguntas = {
-    "How are 5x12?":['a)30', 'b)40', 'c)50', 'd)60'],
-    'How are 5/2?': ['a)1', 'b)2', 'c)2.5 ', 'd)2.9'],
-    'How are 11*5?':['a)55', 'b)66', 'd)56', 'e)22']
-}
+#125, 132
 
-choice = ''
-correct = 0
+def myfunc(n):
+    return lambda a: a * n
 
-print(perguntas[0])
+mydoubler = myfunc(2)
 
+print(mydoubler(11))
