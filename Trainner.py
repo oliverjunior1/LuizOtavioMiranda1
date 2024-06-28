@@ -1,8 +1,14 @@
-#125, 132
+#125, 132, 137
 
-def myfunc(n):
-    return lambda a: a * n
+products = [
+    {'name':'PC', 'price': 2400,},
+    {'name':'Mouse', 'price':12,},
+    {'name': 'Cellphone', 'price': 1800,},
+]
 
-mydoubler = myfunc(2)
+new_product = [
+    {**product, 'price': product['price']*1.05}
+    for product in products
+]
 
-print(mydoubler(11))
+print(*new_product)
