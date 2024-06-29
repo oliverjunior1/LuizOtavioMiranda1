@@ -1,6 +1,7 @@
 #125, 132, 137
-dictionary = {'num': 1, 'num': 2, 'num':3}
-
-for i in dictionary:
-    print(i)
-
+iterable = ['Eu', 'Tenho','__iter__']
+iterator = iter(iterable)
+print(next(iterator))
+print(next(iterator))
+print(next(iterator))
+print(next(iterator))
