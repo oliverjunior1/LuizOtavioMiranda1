@@ -1,14 +1,6 @@
 #125, 132, 137
+dictionary = {'num': 1, 'num': 2, 'num':3}
 
-products = [
-    {'name':'PC', 'price': 2400,},
-    {'name':'Mouse', 'price':12,},
-    {'name': 'Cellphone', 'price': 1800,},
-]
+for i in dictionary:
+    print(i)
 
-new_product = [
-    {**product, 'price': product['price']*1.05}
-    for product in products
-]
-
-print(*new_product)
