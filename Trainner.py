@@ -4,3 +4,5 @@ import sys
 
 print(hello.mult())
 print(sys)
+print(*sys, sep='\n')
+
